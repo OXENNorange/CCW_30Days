@@ -1,4 +1,4 @@
-﻿Log file open, 02/01/19 15:10:46
+﻿Log file open, 02/05/19 11:47:12
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,9 +7,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: CCW_30Days
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1351690965) SRandInit(1351690966).
+LogInit: Display: RandInit(580119377) SRandInit(580119377).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.165129
+LogStats: Stats thread started at 0.167524
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -112,731 +112,693 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.02.01-20.10.47:512][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.01-20.10.47:512][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.02.01-20.10.47:523][  0]LogInit: Computer: DESKTOP-PR9T6HR
-[2019.02.01-20.10.47:523][  0]LogInit: User: OXENN
-[2019.02.01-20.10.47:523][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.02.01-20.10.47:523][  0]LogInit: High frequency timer resolution =3.914062 MHz
-[2019.02.01-20.10.47:523][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2019.02.01-20.10.47:523][  0]LogMemory: Platform Memory Stats for Windows
-[2019.02.01-20.10.47:523][  0]LogMemory: Process Physical Memory: 278.27 MB used, 278.27 MB peak
-[2019.02.01-20.10.47:523][  0]LogMemory: Process Virtual Memory: 274.44 MB used, 274.44 MB peak
-[2019.02.01-20.10.47:523][  0]LogMemory: Physical Memory: 7226.23 MB used,  25477.31 MB free, 32703.54 MB total
-[2019.02.01-20.10.47:523][  0]LogMemory: Virtual Memory: 4805.20 MB used,  25477.31 MB free, 134217728.00 MB total
-[2019.02.01-20.10.47:708][  0]LogInit: Using OS detected language (en-US).
-[2019.02.01-20.10.47:708][  0]LogInit: Using OS detected locale (en-US).
-[2019.02.01-20.10.47:710][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.02.01-20.10.48:275][  0]LogD3D11RHI: D3D11 adapters:
-[2019.02.01-20.10.48:319][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2019.02.01-20.10.48:319][  0]LogD3D11RHI:       6061/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.02.01-20.10.48:321][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.02.01-20.10.48:321][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.02.01-20.10.48:321][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.02.01-20.10.48:326][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.02.01-20.10.48:326][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2019.02.01-20.10.48:326][  0]LogWindows: EnumDisplayDevices:
-[2019.02.01-20.10.48:326][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2019.02.01-20.10.48:326][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2019.02.01-20.10.48:327][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2019.02.01-20.10.48:327][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2019.02.01-20.10.48:327][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.02.01-20.10.48:327][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2019.02.01-20.10.48:327][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.02.01-20.10.48:327][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.02.01-20.10.48:327][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2019.02.01-20.10.48:350][  0]LogD3D11RHI: Async texture creation enabled
-[2019.02.01-20.10.48:360][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.02.01-20.10.48:451][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Intermediate/Shaders/WorkingDirectory/14148/).
-[2019.02.01-20.10.48:452][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/OXENN/AppData/Local/Temp/UnrealShaderWorkingDir/26EA001441F29E06518E9CBCF5B9893B/'.
-[2019.02.01-20.10.48:452][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.02.01-20.10.49:213][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.02.01-20.10.49:265][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.02.01-20.10.49:318][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.02.01-20.10.49:369][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.02.01-20.10.49:422][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.02.01-20.10.49:475][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.02.01-20.10.49:527][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.02.01-20.10.49:580][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.02.01-20.10.49:627][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.02.01-20.10.49:679][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.01-20.10.49:729][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2019.02.01-20.10.49:781][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2019.02.01-20.10.49:833][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2019.02.01-20.10.49:887][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2019.02.01-20.10.49:939][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2019.02.01-20.10.50:042][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2019.02.01-20.10.50:042][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2019.02.01-20.10.50:084][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.02.01-20.10.50:181][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.01-20.10.50:211][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.01-20.10.50:262][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.02.01-20.10.50:313][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.02.01-20.10.50:365][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.02.01-20.10.50:416][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.02.01-20.10.50:416][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.02.01-20.10.50:939][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.02.01-20.10.51:009][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/OXENN/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2019.02.01-20.10.51:009][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/OXENN/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2019.02.01-20.10.51:009][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.02.01-20.10.51:009][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.02.01-20.10.51:009][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.01-20.10.51:009][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.02.01-20.10.51:021][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.02.01-20.10.51:033][  0]LogDerivedDataCache: Using Local data cache path C:/Users/OXENN/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.02.01-20.10.51:041][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.02.01-20.10.51:041][  0]LogSlate: Using Freetype 2.6.0
-[2019.02.01-20.10.51:042][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.01-20.10.51:042][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.01-20.10.51:258][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
-[2019.02.01-20.10.51:357][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.01-20.10.51:480][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2019.02.01-20.10.51:775][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.02.01-20.10.51:819][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.02.01-20.10.51:819][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.02.01-20.10.51:819][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.02.01-20.10.51:819][  0]LogMeshReduction: No automatic mesh merging module available
-[2019.02.01-20.10.51:819][  0]LogMeshMerging: No automatic mesh merging module available
-[2019.02.01-20.10.52:116][  0]LogNetVersion: CCW_30Days , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3455196216)
-[2019.02.01-20.10.52:312][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.035513 seconds
-[2019.02.01-20.10.52:317][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2019.02.01-20.10.52:317][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2019.02.01-20.10.52:317][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.02.01-20.10.52:387][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2019.02.01-20.10.54:898][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
-[2019.02.01-20.10.54:930][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.02.01-20.10.54:972][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.02.01-20.10.55:632][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2019.02.01-20.10.56:042][  0]SourceControl: Source control is disabled
-[2019.02.01-20.10.56:042][  0]SourceControl: Source control is disabled
-[2019.02.01-20.10.56:094][  0]SourceControl: Source control is disabled
-[2019.02.01-20.10.56:145][  0]SourceControl: Source control is disabled
-[2019.02.01-20.10.56:762][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.02.01-20.10.57:022][  0]LogOcInput: OculusInput pre-init called
-[2019.02.01-20.10.57:455][  0]LogEngine: Initializing Engine...
-[2019.02.01-20.10.57:456][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.01-20.10.57:624][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.01-20.10.57:624][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.01-20.10.57:761][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.02.01-20.10.57:772][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.01-20.10.57:807][  0]LogInit: FAudioDevice initialized.
-[2019.02.01-20.10.57:906][  0]LogDerivedDataCache: Saved boot cache 0.10s 93MB C:/Users/OXENN/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2019.02.01-20.10.57:942][  0]LogInit: Texture streaming: Enabled
-[2019.02.01-20.10.58:077][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.02.01-20.10.58:318][  0]LogInit: Transaction tracking system initialized
-[2019.02.01-20.10.58:663][  0]BlueprintLog: New page: Editor Load
-[2019.02.01-20.10.59:627][  0]LocalizationService: Localization service is disabled
-[2019.02.01-20.11.00:364][  0]LogConsoleResponse: Display: 
-[2019.02.01-20.11.00:525][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.02.01-20.11.00:525][  0]LogCook: Display: Mobile HDR setting 1
-[2019.02.01-20.11.00:525][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.02.01-20.11.01:598][  0]LogFileCache: Scanning file cache for directory 'C:/Users/OXENN/Documents/GitHub/CCW_30Days/Content/' took 0.02s
-[2019.02.01-20.11.01:646][  0]SourceControl: Source control is disabled
-[2019.02.01-20.11.01:646][  0]Cmd: MAP LOAD FILE="../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Levels/TwoPlayerArena.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.01-20.11.01:647][  0]LightingResults: New page: Lighting Build
-[2019.02.01-20.11.01:691][  0]MapCheck: New page: Map Check
-[2019.02.01-20.11.01:691][  0]LightingResults: New page: Lighting Build
-[2019.02.01-20.11.01:902][  0]LogAIModule: Creating AISystem for world TwoPlayerArena
-[2019.02.01-20.11.01:907][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.01-20.11.01:917][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.01-20.11.01:965][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47.498ms to complete.
-[2019.02.01-20.11.01:965][  0]LogFileHelpers: Loading map 'TwoPlayerArena' took 0.319
-[2019.02.01-20.11.02:113][  0]LogCollectionManager: Loaded 0 collections in 0.001591 seconds
-[2019.02.01-20.11.02:203][  0]LogFileCache: Scanning file cache for directory 'C:/Users/OXENN/Documents/GitHub/CCW_30Days/Saved/Collections/' took 0.01s
-[2019.02.01-20.11.02:203][  0]LogFileCache: Scanning file cache for directory 'C:/Users/OXENN/Documents/GitHub/CCW_30Days/Content/Developers/OXENN/Collections/' took 0.01s
-[2019.02.01-20.11.02:203][  0]LogFileCache: Scanning file cache for directory 'C:/Users/OXENN/Documents/GitHub/CCW_30Days/Content/Collections/' took 0.01s
-[2019.02.01-20.11.02:203][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.02.01-20.11.02:211][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2400 classes and 506 folders.
-[2019.02.01-20.11.02:280][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.02.01-20.11.02:316][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.02.01-20.11.02:364][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2019.02.01-20.11.02:416][  0]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.01-20.11.02:418][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.02.01-20.11.02:424][  0]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.02.01-20.11.02:524][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2019.02.01-20.11.02:674][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2019.02.01-20.11.02:675][  0]LogLoad: (Engine Initialization) Total time: 16.78 seconds
-[2019.02.01-20.11.02:675][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.02.01-20.11.02:675][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2019.02.01-20.11.02:675][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2019.02.01-20.11.02:684][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.02.01-20.11.02:703][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.02.01-20.11.02:739][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2019.02.01-20.11.02:748][  1]LogAssetRegistry: Asset discovery search completed in 11.5115 seconds
-[2019.02.01-20.11.02:749][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.02.01-20.11.02:749][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
-[2019.02.01-20.11.03:723][111]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2019.02.01-20.11.28:303][ 57]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2019.02.01-20.11.28:512][ 57]LogAIModule: Creating AISystem for world Arena_1
-[2019.02.01-20.11.28:528][ 57]Cmd: MAP LOAD FILE="../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Levels/Arena_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.01-20.11.28:528][ 57]LightingResults: New page: Lighting Build
-[2019.02.01-20.11.28:529][ 57]LoadErrors: New page: Loading map: Arena_1.umap
-[2019.02.01-20.11.28:529][ 57]MapCheck: New page: Map Check
-[2019.02.01-20.11.28:529][ 57]LightingResults: New page: Lighting Build
-[2019.02.01-20.11.28:584][ 57]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.01-20.11.28:626][ 57]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.01-20.11.28:678][ 57]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.343ms to complete.
-[2019.02.01-20.11.28:678][ 57]LogFileHelpers: Loading map 'Arena_1' took 0.151
-[2019.02.01-20.11.40:672][452]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 113 classes and 0 folders.
-[2019.02.01-20.11.41:218][452]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.01-20.11.41:312][452]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.02.01-20.11.41:534][453]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.02.01-20.14.14:902][353]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CCW30Days
-[2019.02.01-20.14.14:902][353]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2019.02.01-20.14.14:902][353]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
-[2019.02.01-20.14.14:902][353]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2019.02.01-20.14.14:902][353]LogTemp: BranchPath = DESKTOP-PR9T6HR/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-PR9T6HR/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
-[2019.02.01-20.14.14:952][355]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\OXENN\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2019.02.01-20.16.50:670][665]BlueprintLog: New page: Compile BP_player_1
-[2019.02.01-20.16.51:077][665]LogSavePackage: Save=115.52ms
-[2019.02.01-20.16.51:077][665]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/BP_player_1CAF3D20240101539410C1FA3D388B43E.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset'
-[2019.02.01-20.16.51:079][665]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset
-[2019.02.01-20.16.51:678][701]LogSavePackage: Save=109.26ms
-[2019.02.01-20.16.51:678][701]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/BP_player_111F7FE8E4BD42C621B2D34956A37F6F5.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset'
-[2019.02.01-20.16.51:679][701]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset
-[2019.02.01-20.19.05:244][395]BlueprintLog: New page: Compile BP_player_1
-[2019.02.01-20.19.05:630][395]LogSavePackage: Save=117.17ms
-[2019.02.01-20.19.05:630][395]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/BP_player_115F4D40647FB632185B9EA99454E5D28.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset'
-[2019.02.01-20.19.05:633][395]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset
-[2019.02.01-20.19.06:321][449]LogSavePackage: Save=111.79ms
-[2019.02.01-20.19.06:321][449]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/BP_player_1FF5136514FCF9B67B0ADD899BE3A5AE4.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset'
-[2019.02.01-20.19.06:322][449]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset
-[2019.02.01-20.19.34:457][  2]LogSlate: Took 0.003586 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2019.02.01-20.21.37:093][346]BlueprintLog: New page: Compile BP_player_1
-[2019.02.01-20.21.37:497][346]LogSavePackage: Save=119.86ms
-[2019.02.01-20.21.37:497][346]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/BP_player_1F5912B3F4F5D235FC11E239AB66CB234.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset'
-[2019.02.01-20.21.37:500][346]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset
-[2019.02.01-20.21.38:055][385]LogSavePackage: Save=112.32ms
-[2019.02.01-20.21.38:055][385]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/BP_player_15E315D54443A44710F1903841A2CDD7D.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset'
-[2019.02.01-20.21.38:057][385]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset
-[2019.02.01-20.22.30:811][740]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2019.02.01-20.22.30:971][740]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.01-20.22.31:199][740]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2019.02.01-20.22.31:677][740]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0010 seconds. Added 1 classes and 0 folders.
-[2019.02.01-20.23.34:662][281]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2019.02.01-20.23.42:739][245]BlueprintLog: New page: Compile BP_player_1
-[2019.02.01-20.23.43:866][320]LogSavePackage: Save=120.10ms
-[2019.02.01-20.23.43:866][320]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/BP_player_15E5FD7774FA87293F8D81C9C65128E82.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset'
-[2019.02.01-20.23.43:867][320]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset
-[2019.02.01-20.24.08:424][237]BlueprintLog: New page: Compile BP_player_1
-[2019.02.01-20.24.08:829][237]LogSavePackage: Save=118.00ms
-[2019.02.01-20.24.08:829][237]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/BP_player_16B05AA1D472AED9E506D3388ED3FFFAD.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset'
-[2019.02.01-20.24.08:831][237]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset
-[2019.02.01-20.24.10:253][399]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.01-20.24.10:298][399]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.24.10:299][399]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.01-20.24.10:299][399]PIE: New page: PIE session: Arena_1 (Feb 1, 2019, 10:24:10 AM)
-[2019.02.01-20.24.10:299][399]LogPlayLevel: Creating play world package: /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1
-[2019.02.01-20.24.10:312][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013233s)
-[2019.02.01-20.24.10:313][399]LogAIModule: Creating AISystem for world Arena_1
-[2019.02.01-20.24.10:313][399]LogPlayLevel: PIE: World Init took: (0.000692s)
-[2019.02.01-20.24.10:313][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HellYeahContent/Levels/Arena_1.Arena_1 to /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 (0.014177s)
-[2019.02.01-20.24.10:335][399]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.01-20.24.10:348][399]LogInit: FAudioDevice initialized.
-[2019.02.01-20.24.10:390][399]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.01-20.24.10:392][399]LogWorld: Bringing World /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 up for play (max tick rate 0) at 2019.02.01-15.24.10
-[2019.02.01-20.24.10:392][399]LogWorld: Bringing up level for play took: 0.001192
-[2019.02.01-20.24.10:439][399]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2019.02.01-20.24.10:440][399]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2019.02.01-20.24.10:446][399]LogScriptCore: Warning: Script Msg: Attempted to access index 3 from array 'ItemsToSpawn' of length 3 in '/Game/HellYeahContent/Blueprints/Spawner/BP_ItemSpawner.BP_ItemSpawner_C'!
-[2019.02.01-20.24.10:446][399]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
-[2019.02.01-20.24.10:446][399]PIE: Play in editor start time for /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1 0.58
-[2019.02.01-20.24.10:446][399]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.24.18:101][313]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.24.18:136][313]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.24.33:439][134]BlueprintLog: New page: Compile BP_player_1
-[2019.02.01-20.24.33:841][134]LogSavePackage: Save=120.56ms
-[2019.02.01-20.24.33:841][134]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/BP_player_17711BD554DE603003E2F8BB6DA0EADE6.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset'
-[2019.02.01-20.24.33:843][134]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset
-[2019.02.01-20.24.40:919][885]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CCW30Days
-[2019.02.01-20.24.40:919][885]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2019.02.01-20.24.40:919][885]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
-[2019.02.01-20.24.40:919][885]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2019.02.01-20.24.40:919][885]LogTemp: BranchPath = DESKTOP-PR9T6HR/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-PR9T6HR/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
-[2019.02.01-20.24.40:930][886]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\OXENN\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2019.02.01-20.24.46:397][536]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.01-20.24.46:418][536]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.24.46:418][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.01-20.24.46:418][536]PIE: New page: PIE session: Arena_1 (Feb 1, 2019, 10:24:46 AM)
-[2019.02.01-20.24.46:418][536]LogPlayLevel: Creating play world package: /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1
-[2019.02.01-20.24.46:431][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012587s)
-[2019.02.01-20.24.46:432][536]LogAIModule: Creating AISystem for world Arena_1
-[2019.02.01-20.24.46:432][536]LogPlayLevel: PIE: World Init took: (0.000615s)
-[2019.02.01-20.24.46:432][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HellYeahContent/Levels/Arena_1.Arena_1 to /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 (0.013445s)
-[2019.02.01-20.24.46:454][536]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.01-20.24.46:466][536]LogInit: FAudioDevice initialized.
-[2019.02.01-20.24.46:497][536]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.01-20.24.46:500][536]LogWorld: Bringing World /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 up for play (max tick rate 0) at 2019.02.01-15.24.46
-[2019.02.01-20.24.46:500][536]LogWorld: Bringing up level for play took: 0.001144
-[2019.02.01-20.24.46:500][536]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2019.02.01-20.24.46:505][536]PIE: Play in editor start time for /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1 0.64
-[2019.02.01-20.24.46:505][536]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.24.50:547][ 17]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.24.50:577][ 17]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.24.51:492][123]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.01-20.24.51:512][123]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.24.51:512][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.01-20.24.51:512][123]PIE: New page: PIE session: Arena_1 (Feb 1, 2019, 10:24:51 AM)
-[2019.02.01-20.24.51:512][123]LogPlayLevel: Creating play world package: /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1
-[2019.02.01-20.24.51:523][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010748s)
-[2019.02.01-20.24.51:524][123]LogAIModule: Creating AISystem for world Arena_1
-[2019.02.01-20.24.51:524][123]LogPlayLevel: PIE: World Init took: (0.000844s)
-[2019.02.01-20.24.51:524][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HellYeahContent/Levels/Arena_1.Arena_1 to /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 (0.011910s)
-[2019.02.01-20.24.51:545][123]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.01-20.24.51:556][123]LogInit: FAudioDevice initialized.
-[2019.02.01-20.24.51:588][123]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.01-20.24.51:590][123]LogWorld: Bringing World /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 up for play (max tick rate 0) at 2019.02.01-15.24.51
-[2019.02.01-20.24.51:590][123]LogWorld: Bringing up level for play took: 0.001072
-[2019.02.01-20.24.51:590][123]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2019.02.01-20.24.51:595][123]PIE: Play in editor start time for /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1 -0.27
-[2019.02.01-20.24.51:595][123]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.25.23:603][961]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.25.23:635][961]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.25.34:604][189]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CCW30Days
-[2019.02.01-20.25.34:604][189]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2019.02.01-20.25.34:604][189]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
-[2019.02.01-20.25.34:604][189]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2019.02.01-20.25.34:604][189]LogTemp: BranchPath = DESKTOP-PR9T6HR/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-PR9T6HR/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
-[2019.02.01-20.25.34:621][191]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\OXENN\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2019.02.01-20.26.08:673][254]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.01-20.26.08:693][254]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.26.08:693][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.01-20.26.08:693][254]PIE: New page: PIE session: Arena_1 (Feb 1, 2019, 10:26:08 AM)
-[2019.02.01-20.26.08:693][254]LogPlayLevel: Creating play world package: /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1
-[2019.02.01-20.26.08:706][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012362s)
-[2019.02.01-20.26.08:706][254]LogAIModule: Creating AISystem for world Arena_1
-[2019.02.01-20.26.08:707][254]LogPlayLevel: PIE: World Init took: (0.000667s)
-[2019.02.01-20.26.08:707][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HellYeahContent/Levels/Arena_1.Arena_1 to /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 (0.013276s)
-[2019.02.01-20.26.08:728][254]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.01-20.26.08:739][254]LogInit: FAudioDevice initialized.
-[2019.02.01-20.26.08:769][254]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.01-20.26.08:771][254]LogWorld: Bringing World /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 up for play (max tick rate 0) at 2019.02.01-15.26.08
-[2019.02.01-20.26.08:772][254]LogWorld: Bringing up level for play took: 0.001113
-[2019.02.01-20.26.08:772][254]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2019.02.01-20.26.08:777][254]LogScriptCore: Warning: Script Msg: Attempted to access index 3 from array 'ItemsToSpawn' of length 3 in '/Game/HellYeahContent/Blueprints/Spawner/BP_ItemSpawner.BP_ItemSpawner_C'!
-[2019.02.01-20.26.08:777][254]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
-[2019.02.01-20.26.08:777][254]PIE: Play in editor start time for /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1 0.912
-[2019.02.01-20.26.08:777][254]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.26.25:548][264]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.26.25:582][264]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.26.41:472][ 83]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CCW30Days
-[2019.02.01-20.26.41:472][ 83]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2019.02.01-20.26.41:472][ 83]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
-[2019.02.01-20.26.41:472][ 83]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2019.02.01-20.26.41:472][ 83]LogTemp: BranchPath = DESKTOP-PR9T6HR/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-PR9T6HR/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
-[2019.02.01-20.26.41:490][ 85]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\OXENN\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2019.02.01-20.27.26:960][505]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.01-20.27.26:982][505]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.27.26:982][505]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.01-20.27.26:982][505]PIE: New page: PIE session: Arena_1 (Feb 1, 2019, 10:27:26 AM)
-[2019.02.01-20.27.26:982][505]LogPlayLevel: Creating play world package: /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1
-[2019.02.01-20.27.26:994][505]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012442s)
-[2019.02.01-20.27.26:995][505]LogAIModule: Creating AISystem for world Arena_1
-[2019.02.01-20.27.26:995][505]LogPlayLevel: PIE: World Init took: (0.000790s)
-[2019.02.01-20.27.26:996][505]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HellYeahContent/Levels/Arena_1.Arena_1 to /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 (0.013495s)
-[2019.02.01-20.27.27:016][505]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.01-20.27.27:028][505]LogInit: FAudioDevice initialized.
-[2019.02.01-20.27.27:058][505]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.01-20.27.27:061][505]LogWorld: Bringing World /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 up for play (max tick rate 0) at 2019.02.01-15.27.27
-[2019.02.01-20.27.27:061][505]LogWorld: Bringing up level for play took: 0.001293
-[2019.02.01-20.27.27:062][505]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2019.02.01-20.27.27:066][505]PIE: Play in editor start time for /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1 -0.799
-[2019.02.01-20.27.27:067][505]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.27.35:504][515]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.27.35:535][515]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.28.19:622][702]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.01-20.28.19:644][702]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.28.19:644][702]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.01-20.28.19:644][702]PIE: New page: PIE session: Arena_1 (Feb 1, 2019, 10:28:19 AM)
-[2019.02.01-20.28.19:644][702]LogPlayLevel: Creating play world package: /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1
-[2019.02.01-20.28.19:656][702]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011657s)
-[2019.02.01-20.28.19:657][702]LogAIModule: Creating AISystem for world Arena_1
-[2019.02.01-20.28.19:657][702]LogPlayLevel: PIE: World Init took: (0.000673s)
-[2019.02.01-20.28.19:657][702]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HellYeahContent/Levels/Arena_1.Arena_1 to /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 (0.012570s)
-[2019.02.01-20.28.19:678][702]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.01-20.28.19:689][702]LogInit: FAudioDevice initialized.
-[2019.02.01-20.28.19:718][702]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.01-20.28.19:720][702]LogWorld: Bringing World /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 up for play (max tick rate 0) at 2019.02.01-15.28.19
-[2019.02.01-20.28.19:720][702]LogWorld: Bringing up level for play took: 0.001027
-[2019.02.01-20.28.19:721][702]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2019.02.01-20.28.19:725][702]PIE: Play in editor start time for /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1 -0.14
-[2019.02.01-20.28.19:726][702]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.28.25:930][444]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.28.25:961][444]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.29.00:147][417]BlueprintLog: New page: Compile BP_player_1
-[2019.02.01-20.29.00:561][417]LogSavePackage: Save=118.60ms
-[2019.02.01-20.29.00:561][417]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/BP_player_1E83F7EE448899D86EF55409B6EEB7312.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset'
-[2019.02.01-20.29.00:564][417]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset
-[2019.02.01-20.29.02:308][615]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.01-20.29.02:329][615]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.29.02:329][615]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.01-20.29.02:329][615]PIE: New page: PIE session: Arena_1 (Feb 1, 2019, 10:29:02 AM)
-[2019.02.01-20.29.02:329][615]LogPlayLevel: Creating play world package: /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1
-[2019.02.01-20.29.02:340][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010722s)
-[2019.02.01-20.29.02:340][615]LogAIModule: Creating AISystem for world Arena_1
-[2019.02.01-20.29.02:341][615]LogPlayLevel: PIE: World Init took: (0.000622s)
-[2019.02.01-20.29.02:341][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HellYeahContent/Levels/Arena_1.Arena_1 to /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 (0.011595s)
-[2019.02.01-20.29.02:362][615]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.01-20.29.02:373][615]LogInit: FAudioDevice initialized.
-[2019.02.01-20.29.02:406][615]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.01-20.29.02:409][615]LogWorld: Bringing World /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 up for play (max tick rate 0) at 2019.02.01-15.29.02
-[2019.02.01-20.29.02:409][615]LogWorld: Bringing up level for play took: 0.001127
-[2019.02.01-20.29.02:410][615]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2019.02.01-20.29.02:414][615]PIE: Play in editor start time for /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1 0.549
-[2019.02.01-20.29.02:415][615]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.29.06:784][137]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.29.06:817][137]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.29.26:216][426]BlueprintLog: New page: Compile BP_player_1
-[2019.02.01-20.29.26:643][426]LogSavePackage: Save=130.72ms
-[2019.02.01-20.29.26:643][426]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/BP_player_16656EF8D4E63F4A1673F90AEA0472E0B.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset'
-[2019.02.01-20.29.26:646][426]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset
-[2019.02.01-20.29.27:731][548]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.01-20.29.27:752][548]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.29.27:752][548]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.01-20.29.27:752][548]PIE: New page: PIE session: Arena_1 (Feb 1, 2019, 10:29:27 AM)
-[2019.02.01-20.29.27:752][548]LogPlayLevel: Creating play world package: /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1
-[2019.02.01-20.29.27:764][548]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011707s)
-[2019.02.01-20.29.27:765][548]LogAIModule: Creating AISystem for world Arena_1
-[2019.02.01-20.29.27:765][548]LogPlayLevel: PIE: World Init took: (0.000689s)
-[2019.02.01-20.29.27:765][548]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HellYeahContent/Levels/Arena_1.Arena_1 to /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 (0.012645s)
-[2019.02.01-20.29.27:786][548]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.01-20.29.27:798][548]LogInit: FAudioDevice initialized.
-[2019.02.01-20.29.27:828][548]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.01-20.29.27:831][548]LogWorld: Bringing World /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 up for play (max tick rate 0) at 2019.02.01-15.29.27
-[2019.02.01-20.29.27:831][548]LogWorld: Bringing up level for play took: 0.001200
-[2019.02.01-20.29.27:832][548]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2019.02.01-20.29.27:837][548]PIE: Play in editor start time for /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1 -0.029
-[2019.02.01-20.29.27:837][548]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.29.38:082][775]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.29.38:119][775]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.30.52:573][453]BlueprintLog: New page: Compile BP_player_1
-[2019.02.01-20.30.52:979][453]LogSavePackage: Save=121.08ms
-[2019.02.01-20.30.52:979][453]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/BP_player_190DF7E564674B4EA3025088D2990E5C8.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset'
-[2019.02.01-20.30.52:982][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset
-[2019.02.01-20.30.53:992][566]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.01-20.30.54:012][566]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.30.54:013][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.01-20.30.54:013][566]PIE: New page: PIE session: Arena_1 (Feb 1, 2019, 10:30:54 AM)
-[2019.02.01-20.30.54:013][566]LogPlayLevel: Creating play world package: /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1
-[2019.02.01-20.30.54:025][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011949s)
-[2019.02.01-20.30.54:025][566]LogAIModule: Creating AISystem for world Arena_1
-[2019.02.01-20.30.54:025][566]LogPlayLevel: PIE: World Init took: (0.000636s)
-[2019.02.01-20.30.54:026][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HellYeahContent/Levels/Arena_1.Arena_1 to /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 (0.012819s)
-[2019.02.01-20.30.54:047][566]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.01-20.30.54:059][566]LogInit: FAudioDevice initialized.
-[2019.02.01-20.30.54:093][566]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.01-20.30.54:096][566]LogWorld: Bringing World /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 up for play (max tick rate 0) at 2019.02.01-15.30.54
-[2019.02.01-20.30.54:096][566]LogWorld: Bringing up level for play took: 0.001121
-[2019.02.01-20.30.54:096][566]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2019.02.01-20.30.54:101][566]PIE: Play in editor start time for /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1 0.235
-[2019.02.01-20.30.54:101][566]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.31.14:131][967]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.31.14:165][967]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
-[2019.02.01-20.31.38:270][820]BlueprintLog: New page: Compile BP_player_1
-[2019.02.01-20.31.38:684][820]LogSavePackage: Save=122.90ms
-[2019.02.01-20.31.38:684][820]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/BP_player_1AE1F5F034725445EE3DB3380E2FD5D88.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset'
-[2019.02.01-20.31.38:686][820]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset
-[2019.02.01-20.31.39:209][858]LogSavePackage: Save=115.10ms
-[2019.02.01-20.31.39:209][858]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/BP_player_11F4151F14DB13B231C1AB68A49EB265F.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset'
-[2019.02.01-20.31.39:210][858]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset
-[2019.02.01-20.32.44:206][555]LogSavePackage: Save=95.87ms
-[2019.02.01-20.32.44:206][555]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/Arena_1E67B8EA54A8A9F44661E9BA68286C141.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Levels/Arena_1.umap'
-[2019.02.01-20.32.44:208][555]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Levels/Arena_1.umap
-[2019.02.01-20.32.44:358][555]LogSavePackage: Save=65.57ms
-[2019.02.01-20.32.44:358][555]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/Arena_1_BuiltData919668424BD28E4CEC19258942820FE9.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Levels/Arena_1_BuiltData.uasset'
-[2019.02.01-20.32.44:359][555]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Levels/Arena_1_BuiltData.uasset
-[2019.02.01-20.32.45:898][705]Cmd: QUIT_EDITOR
-[2019.02.01-20.32.46:082][705]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.02.01-20.32.46:090][705]LogExit: Preparing to exit.
-[2019.02.01-20.32.46:811][705]LogDirectoryWatcher: A directory notification for 'C:/Users/OXENN/Documents/GitHub/CCW_30Days/Content/' was aborted.
-[2019.02.01-20.32.46:856][705]LogExit: Editor shut down
-[2019.02.01-20.32.46:860][705]LogExit: Transaction tracking system shut down
-[2019.02.01-20.32.46:988][705]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2019.02.01-20.32.46:988][705]LogDirectoryWatcher: A directory notification for '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/' was aborted.
-[2019.02.01-20.32.46:988][705]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2019.02.01-20.32.46:988][705]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2019.02.01-20.32.46:988][705]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2019.02.01-20.32.47:054][705]LogExit: Object subsystem successfully closed.
-[2019.02.01-20.32.47:073][705]LogD3D11RHI: Shutdown
-[2019.02.01-20.32.47:073][705]LogD3D11RHI: CleanupD3DDevice
-[2019.02.01-20.32.47:155][705]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.02.01-20.32.47:172][705]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (550)
-[2019.02.01-20.32.47:172][705]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (548)
-[2019.02.01-20.32.47:172][705]LogModuleManager: Shutting down and abandoning module SkeletonEditor (546)
-[2019.02.01-20.32.47:172][705]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (544)
-[2019.02.01-20.32.47:172][705]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (542)
-[2019.02.01-20.32.47:172][705]LogModuleManager: Shutting down and abandoning module BlueprintGraph (540)
-[2019.02.01-20.32.47:172][705]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (538)
-[2019.02.01-20.32.47:172][705]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (536)
-[2019.02.01-20.32.47:172][705]LogModuleManager: Shutting down and abandoning module SceneOutliner (534)
-[2019.02.01-20.32.47:172][705]LogModuleManager: Shutting down and abandoning module AddContentDialog (532)
-[2019.02.01-20.32.47:172][705]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
-[2019.02.01-20.32.47:172][705]LogModuleManager: Shutting down and abandoning module WidgetCarousel (531)
-[2019.02.01-20.32.47:172][705]LogModuleManager: Shutting down and abandoning module EditorWidgets (528)
-[2019.02.01-20.32.47:172][705]LogModuleManager: Shutting down and abandoning module CollectionManager (526)
-[2019.02.01-20.32.47:173][705]LogDirectoryWatcher: A directory notification for 'C:/Users/OXENN/Documents/GitHub/CCW_30Days/Content/Collections/' was aborted.
-[2019.02.01-20.32.47:173][705]LogDirectoryWatcher: A directory notification for 'C:/Users/OXENN/Documents/GitHub/CCW_30Days/Content/Developers/OXENN/Collections/' was aborted.
-[2019.02.01-20.32.47:173][705]LogDirectoryWatcher: A directory notification for 'C:/Users/OXENN/Documents/GitHub/CCW_30Days/Saved/Collections/' was aborted.
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module StatsViewer (524)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module FoliageEdit (522)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module LandscapeEditor (520)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module MeshPaintMode (518)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (516)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module ActorPickerMode (514)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module GeometryMode (512)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module TextureAlignMode (510)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module BspMode (508)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (506)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module HardwareSurvey (504)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (502)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module AutomationWorker (500)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (498)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (496)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module PlacementMode (495)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (492)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (490)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (488)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (486)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (484)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module Media (483)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (480)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module CharacterAI (478)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module AudioCapture (476)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module SequenceRecorder (475)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module SmartSnapping (472)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module SessionServices (470)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module ViewportSnapping (468)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module ViewportInteraction (466)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module ClothPainter (464)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module LogVisualizer (462)
-[2019.02.01-20.32.47:173][705]LogModuleManager: Shutting down and abandoning module IntroTutorials (460)
-[2019.02.01-20.32.47:174][705]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (459)
-[2019.02.01-20.32.47:174][705]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (456)
-[2019.02.01-20.32.47:174][705]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (454)
-[2019.02.01-20.32.47:174][705]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (452)
-[2019.02.01-20.32.47:174][705]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (451)
-[2019.02.01-20.32.47:731][705]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (448)
-[2019.02.01-20.32.47:731][705]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (446)
-[2019.02.01-20.32.47:731][705]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (444)
-[2019.02.01-20.32.47:731][705]LogModuleManager: Shutting down and abandoning module InputBindingEditor (442)
-[2019.02.01-20.32.47:731][705]LogModuleManager: Shutting down and abandoning module MergeActors (440)
-[2019.02.01-20.32.47:731][705]LogModuleManager: Shutting down and abandoning module SizeMap (438)
-[2019.02.01-20.32.47:731][705]LogModuleManager: Shutting down and abandoning module TreeMap (436)
-[2019.02.01-20.32.47:731][705]LogModuleManager: Shutting down and abandoning module ReferenceViewer (434)
-[2019.02.01-20.32.47:731][705]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (432)
-[2019.02.01-20.32.47:731][705]LogModuleManager: Shutting down and abandoning module LocalizationService (431)
-[2019.02.01-20.32.47:731][705]LogModuleManager: Shutting down and abandoning module HardwareTargeting (428)
-[2019.02.01-20.32.47:731][705]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (426)
-[2019.02.01-20.32.47:731][705]LogModuleManager: Shutting down and abandoning module UndoHistory (424)
-[2019.02.01-20.32.47:731][705]LogModuleManager: Shutting down and abandoning module XmlParser (422)
-[2019.02.01-20.32.47:731][705]LogModuleManager: Shutting down and abandoning module Blutility (420)
-[2019.02.01-20.32.47:731][705]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (418)
-[2019.02.01-20.32.47:732][705]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (417)
-[2019.02.01-20.32.47:732][705]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (414)
-[2019.02.01-20.32.47:732][705]LogModuleManager: Shutting down and abandoning module SettingsEditor (412)
-[2019.02.01-20.32.47:732][705]LogModuleManager: Shutting down and abandoning module ProjectLauncher (410)
-[2019.02.01-20.32.47:732][705]LogModuleManager: Shutting down and abandoning module SessionFrontend (408)
-[2019.02.01-20.32.47:732][705]LogModuleManager: Shutting down and abandoning module ProfilerClient (406)
-[2019.02.01-20.32.47:732][705]LogModuleManager: Shutting down and abandoning module DeviceManager (404)
-[2019.02.01-20.32.47:732][705]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (403)
-[2019.02.01-20.32.47:798][705]LogModuleManager: Shutting down and abandoning module AutomationController (400)
-[2019.02.01-20.32.47:798][705]LogModuleManager: Shutting down and abandoning module AutomationWindow (398)
-[2019.02.01-20.32.47:798][705]LogModuleManager: Shutting down and abandoning module Layers (396)
-[2019.02.01-20.32.47:798][705]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (394)
-[2019.02.01-20.32.47:798][705]LogModuleManager: Shutting down and abandoning module DetailCustomizations (392)
-[2019.02.01-20.32.47:798][705]LogModuleManager: Shutting down and abandoning module PackagesDialog (390)
-[2019.02.01-20.32.47:799][705]LogModuleManager: Shutting down and abandoning module Persona (388)
-[2019.02.01-20.32.47:799][705]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (387)
-[2019.02.01-20.32.47:799][705]LogModuleManager: Shutting down and abandoning module AnimGraph (385)
-[2019.02.01-20.32.47:799][705]LogModuleManager: Shutting down and abandoning module Kismet (382)
-[2019.02.01-20.32.47:818][705]LogModuleManager: Shutting down and abandoning module ClassViewer (380)
-[2019.02.01-20.32.47:818][705]LogModuleManager: Shutting down and abandoning module Toolbox (378)
-[2019.02.01-20.32.47:818][705]LogModuleManager: Shutting down and abandoning module ModuleUI (376)
-[2019.02.01-20.32.47:818][705]LogModuleManager: Shutting down and abandoning module MovieSceneTools (374)
-[2019.02.01-20.32.47:818][705]LogModuleManager: Shutting down and abandoning module OutputLog (372)
-[2019.02.01-20.32.47:819][705]LogModuleManager: Shutting down and abandoning module GammaUI (370)
-[2019.02.01-20.32.47:819][705]LogModuleManager: Shutting down and abandoning module Documentation (368)
-[2019.02.01-20.32.47:819][705]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (366)
-[2019.02.01-20.32.47:819][705]LogModuleManager: Shutting down and abandoning module MovieScene (364)
-[2019.02.01-20.32.47:819][705]LogModuleManager: Shutting down and abandoning module Niagara (362)
-[2019.02.01-20.32.47:819][705]LogModuleManager: Shutting down and abandoning module NiagaraEditor (361)
-[2019.02.01-20.32.47:819][705]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (358)
-[2019.02.01-20.32.47:820][705]LogModuleManager: Shutting down and abandoning module LauncherPlatform (356)
-[2019.02.01-20.32.47:820][705]LogModuleManager: Shutting down and abandoning module AnalyticsET (354)
-[2019.02.01-20.32.47:820][705]LogModuleManager: Shutting down and abandoning module PortalServices (352)
-[2019.02.01-20.32.47:820][705]LogModuleManager: Shutting down and abandoning module PortalRpc (350)
-[2019.02.01-20.32.47:820][705]LogModuleManager: Shutting down and abandoning module MessagingRpc (348)
-[2019.02.01-20.32.47:820][705]LogModuleManager: Shutting down and abandoning module AIModule (346)
-[2019.02.01-20.32.47:820][705]LogModuleManager: Shutting down and abandoning module GameplayDebugger (345)
-[2019.02.01-20.32.47:820][705]LogModuleManager: Shutting down and abandoning module AITestSuite (343)
-[2019.02.01-20.32.47:820][705]LogModuleManager: Shutting down and abandoning module ProfilerService (340)
-[2019.02.01-20.32.47:969][705]LogModuleManager: Shutting down and abandoning module TaskGraph (338)
-[2019.02.01-20.32.47:969][705]LogModuleManager: Shutting down and abandoning module SubstanceSource (336)
-[2019.02.01-20.32.47:969][705]LogModuleManager: Shutting down and abandoning module SubstanceEditor (334)
-[2019.02.01-20.32.47:969][705]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
-[2019.02.01-20.32.47:969][705]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
-[2019.02.01-20.32.47:969][705]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
-[2019.02.01-20.32.47:970][705]LogModuleManager: Shutting down and abandoning module OculusInput (326)
-[2019.02.01-20.32.47:970][705]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
-[2019.02.01-20.32.47:970][705]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
-[2019.02.01-20.32.47:970][705]LogModuleManager: Shutting down and abandoning module CableComponent (320)
-[2019.02.01-20.32.47:970][705]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
-[2019.02.01-20.32.47:970][705]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
-[2019.02.01-20.32.47:970][705]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
-[2019.02.01-20.32.47:970][705]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
-[2019.02.01-20.32.47:970][705]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
-[2019.02.01-20.32.47:970][705]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
-[2019.02.01-20.32.47:971][705]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
-[2019.02.01-20.32.47:971][705]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
-[2019.02.01-20.32.47:971][705]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
-[2019.02.01-20.32.47:971][705]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
-[2019.02.01-20.32.47:971][705]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
-[2019.02.01-20.32.47:971][705]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
-[2019.02.01-20.32.47:971][705]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
-[2019.02.01-20.32.47:971][705]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
-[2019.02.01-20.32.47:971][705]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
-[2019.02.01-20.32.47:971][705]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
-[2019.02.01-20.32.47:971][705]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
-[2019.02.01-20.32.47:972][705]LogModuleManager: Shutting down and abandoning module SourceControl (283)
-[2019.02.01-20.32.47:972][705]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
-[2019.02.01-20.32.47:972][705]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
-[2019.02.01-20.32.47:972][705]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
-[2019.02.01-20.32.47:972][705]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
-[2019.02.01-20.32.47:972][705]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
-[2019.02.01-20.32.47:972][705]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
-[2019.02.01-20.32.47:974][705]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
-[2019.02.01-20.32.47:974][705]LogModuleManager: Shutting down and abandoning module MainFrame (268)
-[2019.02.01-20.32.47:974][705]LogModuleManager: Shutting down and abandoning module HotReload (267)
-[2019.02.01-20.32.47:975][705]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (262)
-[2019.02.01-20.32.47:975][705]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (260)
-[2019.02.01-20.32.47:975][705]LogModuleManager: Shutting down and abandoning module PhysXVehicles (258)
-[2019.02.01-20.32.47:976][705]LogModuleManager: Shutting down and abandoning module OculusEditor (256)
-[2019.02.01-20.32.47:976][705]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (254)
-[2019.02.01-20.32.47:976][705]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (252)
-[2019.02.01-20.32.47:976][705]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (250)
-[2019.02.01-20.32.47:976][705]LogModuleManager: Shutting down and abandoning module UdpMessaging (248)
-[2019.02.01-20.32.48:077][705]LogModuleManager: Shutting down and abandoning module TcpMessaging (246)
-[2019.02.01-20.32.48:178][705]LogModuleManager: Shutting down and abandoning module SubstanceCore (244)
-[2019.02.01-20.32.48:178][705]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2019.02.01-20.32.48:178][705]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2019.02.01-20.32.48:178][705]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2019.02.01-20.32.48:178][705]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2019.02.01-20.32.48:178][705]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2019.02.01-20.32.48:178][705]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2019.02.01-20.32.48:181][705]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2019.02.01-20.32.48:181][705]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2019.02.01-20.32.48:181][705]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2019.02.01-20.32.48:181][705]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2019.02.01-20.32.48:187][705]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2019.02.01-20.32.48:187][705]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2019.02.01-20.32.48:187][705]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2019.02.01-20.32.48:187][705]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2019.02.01-20.32.48:187][705]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2019.02.01-20.32.48:187][705]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2019.02.01-20.32.48:187][705]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2019.02.01-20.32.48:187][705]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2019.02.01-20.32.48:187][705]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2019.02.01-20.32.48:187][705]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2019.02.01-20.32.48:188][705]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2019.02.01-20.32.48:188][705]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2019.02.01-20.32.48:188][705]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2019.02.01-20.32.48:188][705]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2019.02.01-20.32.48:188][705]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2019.02.01-20.32.48:188][705]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2019.02.01-20.32.48:188][705]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2019.02.01-20.32.48:188][705]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2019.02.01-20.32.48:188][705]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2019.02.01-20.32.48:188][705]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2019.02.01-20.32.48:196][705]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2019.02.01-20.32.48:196][705]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2019.02.01-20.32.48:196][705]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2019.02.01-20.32.48:196][705]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2019.02.01-20.32.48:196][705]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2019.02.01-20.32.48:196][705]LogModuleManager: Shutting down and abandoning module Core (168)
-[2019.02.01-20.32.48:196][705]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2019.02.01-20.32.48:196][705]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
-[2019.02.01-20.32.48:196][705]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
-[2019.02.01-20.32.48:196][705]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
-[2019.02.01-20.32.48:196][705]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
-[2019.02.01-20.32.48:196][705]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
-[2019.02.01-20.32.48:197][705]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
-[2019.02.01-20.32.48:197][705]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
-[2019.02.01-20.32.48:197][705]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
-[2019.02.01-20.32.48:197][705]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2019.02.01-20.32.48:198][705]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2019.02.01-20.32.48:265][705]LogDerivedDataCache: Shutdown
-[2019.02.01-20.32.48:265][705]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2019.02.01-20.32.48:265][705]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2019.02.01-20.32.48:265][705]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2019.02.01-20.32.48:265][705]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2019.02.01-20.32.48:265][705]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2019.02.01-20.32.48:265][705]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2019.02.01-20.32.48:265][705]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2019.02.01-20.32.48:266][705]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2019.02.01-20.32.48:266][705]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2019.02.01-20.32.48:266][705]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2019.02.01-20.32.48:266][705]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2019.02.01-20.32.48:266][705]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2019.02.01-20.32.48:266][705]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2019.02.01-20.32.48:266][705]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2019.02.01-20.32.48:266][705]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2019.02.01-20.32.48:266][705]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2019.02.01-20.32.48:266][705]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2019.02.01-20.32.48:266][705]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2019.02.01-20.32.48:267][705]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2019.02.01-20.32.48:267][705]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2019.02.01-20.32.48:267][705]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2019.02.01-20.32.48:267][705]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2019.02.01-20.32.48:267][705]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2019.02.01-20.32.48:267][705]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2019.02.01-20.32.48:267][705]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2019.02.01-20.32.48:267][705]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2019.02.01-20.32.48:267][705]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2019.02.01-20.32.48:267][705]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2019.02.01-20.32.48:267][705]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2019.02.01-20.32.48:267][705]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2019.02.01-20.32.48:267][705]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2019.02.01-20.32.48:268][705]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2019.02.01-20.32.48:268][705]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2019.02.01-20.32.48:268][705]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2019.02.01-20.32.48:268][705]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2019.02.01-20.32.48:268][705]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2019.02.01-20.32.48:268][705]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2019.02.01-20.32.48:268][705]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2019.02.01-20.32.48:268][705]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2019.02.01-20.32.48:268][705]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2019.02.01-20.32.48:268][705]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2019.02.01-20.32.48:268][705]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2019.02.01-20.32.48:268][705]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2019.02.01-20.32.48:269][705]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2019.02.01-20.32.48:269][705]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2019.02.01-20.32.48:269][705]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2019.02.01-20.32.48:269][705]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2019.02.01-20.32.48:269][705]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2019.02.01-20.32.48:269][705]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2019.02.01-20.32.48:269][705]LogOnline: Display: Unloading online subsystem: NULL
-[2019.02.01-20.32.48:269][705]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2019.02.01-20.32.48:269][705]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2019.02.01-20.32.48:269][705]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.02.01-20.32.48:269][705]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6B9DB0A6-4EAB-3D06-D9F5-0DB055B2E191%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=0faefc914db239fff53c0795116a4198%7C3a96579d56824df6acf06b5d71b70300%7C02947097-08a0-416c-97ac-24e8b41aff76&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.02.01-20.32.48:295][705]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2019.02.01-20.32.48:299][705]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.02.01-20.32.48:299][705]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.02.01-20.32.48:299][705]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.02.01-20.32.48:299][705]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.02.01-20.32.48:300][705]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.02.01-20.32.48:300][705]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.02.01-20.32.48:300][705]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.02.01-20.32.48:308][705]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.02.01-20.32.48:308][705]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.02.01-20.32.48:308][705]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.02.01-20.32.48:308][705]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.02.01-20.32.48:308][705]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.02.01-20.32.48:308][705]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.02.01-20.32.48:308][705]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.02.01-20.32.48:308][705]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.02.01-20.32.48:308][705]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.02.01-20.32.48:308][705]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.02.01-20.32.48:308][705]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.02.01-20.32.48:319][705]LogExit: Exiting.
-[2019.02.01-20.32.48:362][705]Log file closed, 02/01/19 15:32:48
+[2019.02.05-16.47.13:392][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.05-16.47.13:392][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.05-16.47.13:415][  0]LogInit: Computer: DESKTOP-PR9T6HR
+[2019.02.05-16.47.13:415][  0]LogInit: User: OXENN
+[2019.02.05-16.47.13:416][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.05-16.47.13:416][  0]LogInit: High frequency timer resolution =3.914062 MHz
+[2019.02.05-16.47.13:416][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.02.05-16.47.13:416][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.05-16.47.13:416][  0]LogMemory: Process Physical Memory: 278.04 MB used, 278.04 MB peak
+[2019.02.05-16.47.13:416][  0]LogMemory: Process Virtual Memory: 274.41 MB used, 274.41 MB peak
+[2019.02.05-16.47.13:416][  0]LogMemory: Physical Memory: 8754.01 MB used,  23949.54 MB free, 32703.54 MB total
+[2019.02.05-16.47.13:416][  0]LogMemory: Virtual Memory: 4805.20 MB used,  23949.54 MB free, 134217728.00 MB total
+[2019.02.05-16.47.13:765][  0]LogInit: Using OS detected language (en-US).
+[2019.02.05-16.47.13:765][  0]LogInit: Using OS detected locale (en-US).
+[2019.02.05-16.47.13:812][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.05-16.47.16:151][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.05-16.47.16:202][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.02.05-16.47.16:202][  0]LogD3D11RHI:       6061/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.02.05-16.47.16:204][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.05-16.47.16:204][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.05-16.47.16:204][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.05-16.47.16:211][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.05-16.47.16:211][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.05-16.47.16:211][  0]LogWindows: EnumDisplayDevices:
+[2019.02.05-16.47.16:211][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.02.05-16.47.16:211][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.02.05-16.47.16:211][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.02.05-16.47.16:211][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.02.05-16.47.16:211][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.02.05-16.47.16:212][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.02.05-16.47.16:212][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.02.05-16.47.16:212][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.02.05-16.47.16:212][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2019.02.05-16.47.16:236][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.05-16.47.16:248][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.02.05-16.47.16:341][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Intermediate/Shaders/WorkingDirectory/7396/).
+[2019.02.05-16.47.16:341][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/OXENN/AppData/Local/Temp/UnrealShaderWorkingDir/8EA47D744C966972B9000BA163471013/'.
+[2019.02.05-16.47.16:342][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.05-16.47.17:939][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.05-16.47.17:992][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.05-16.47.18:046][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.05-16.47.18:102][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.05-16.47.18:159][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.05-16.47.18:213][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.05-16.47.18:268][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.05-16.47.18:321][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.05-16.47.18:370][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.05-16.47.18:426][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.05-16.47.18:477][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.02.05-16.47.18:529][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.02.05-16.47.18:580][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.02.05-16.47.18:632][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.02.05-16.47.18:683][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.02.05-16.47.18:787][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.02.05-16.47.18:787][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.02.05-16.47.18:831][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.05-16.47.18:938][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.05-16.47.18:969][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.05-16.47.19:022][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.05-16.47.19:075][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.05-16.47.19:127][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.05-16.47.19:181][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.05-16.47.19:181][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.05-16.47.19:742][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.05-16.47.19:821][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/OXENN/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2019.02.05-16.47.19:821][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/OXENN/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2019.02.05-16.47.19:821][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.05-16.47.19:821][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.05-16.47.19:821][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.05-16.47.19:821][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.05-16.47.19:847][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.05-16.47.19:859][  0]LogDerivedDataCache: Using Local data cache path C:/Users/OXENN/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.05-16.47.19:867][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.05-16.47.19:867][  0]LogSlate: Using Freetype 2.6.0
+[2019.02.05-16.47.19:880][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.05-16.47.19:880][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.05-16.47.20:228][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2019.02.05-16.47.20:334][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.05-16.47.20:666][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2019.02.05-16.47.21:003][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.05-16.47.21:048][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.05-16.47.21:048][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.05-16.47.21:048][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.05-16.47.21:048][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.02.05-16.47.21:048][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.02.05-16.47.21:730][  0]LogNetVersion: CCW_30Days , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3455196216)
+[2019.02.05-16.47.22:154][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.046125 seconds
+[2019.02.05-16.47.22:159][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2019.02.05-16.47.22:159][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2019.02.05-16.47.22:159][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.05-16.47.22:227][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.02.05-16.47.26:667][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2019.02.05-16.47.26:701][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.05-16.47.26:745][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.05-16.47.27:606][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.02.05-16.47.28:107][  0]SourceControl: Source control is disabled
+[2019.02.05-16.47.28:107][  0]SourceControl: Source control is disabled
+[2019.02.05-16.47.28:159][  0]SourceControl: Source control is disabled
+[2019.02.05-16.47.28:210][  0]SourceControl: Source control is disabled
+[2019.02.05-16.47.28:849][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.05-16.47.29:111][  0]LogOcInput: OculusInput pre-init called
+[2019.02.05-16.47.29:591][  0]LogEngine: Initializing Engine...
+[2019.02.05-16.47.29:592][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.05-16.47.29:928][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.05-16.47.29:928][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.05-16.47.30:071][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.05-16.47.30:082][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.05-16.47.30:101][  0]LogInit: FAudioDevice initialized.
+[2019.02.05-16.47.30:180][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/OXENN/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2019.02.05-16.47.30:195][  0]LogInit: Texture streaming: Enabled
+[2019.02.05-16.47.30:322][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.05-16.47.30:584][  0]LogInit: Transaction tracking system initialized
+[2019.02.05-16.47.30:936][  0]BlueprintLog: New page: Editor Load
+[2019.02.05-16.47.32:052][  0]LocalizationService: Localization service is disabled
+[2019.02.05-16.47.32:851][  0]LogConsoleResponse: Display: 
+[2019.02.05-16.47.33:217][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.05-16.47.33:217][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.05-16.47.33:217][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.05-16.47.34:379][  0]LogFileCache: Scanning file cache for directory 'C:/Users/OXENN/Documents/GitHub/CCW_30Days/Content/' took 0.02s
+[2019.02.05-16.47.34:431][  0]SourceControl: Source control is disabled
+[2019.02.05-16.47.34:431][  0]Cmd: MAP LOAD FILE="../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Levels/TwoPlayerArena.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.05-16.47.34:435][  0]LightingResults: New page: Lighting Build
+[2019.02.05-16.47.34:481][  0]MapCheck: New page: Map Check
+[2019.02.05-16.47.34:481][  0]LightingResults: New page: Lighting Build
+[2019.02.05-16.47.34:826][  0]LogAIModule: Creating AISystem for world TwoPlayerArena
+[2019.02.05-16.47.34:835][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.05-16.47.34:845][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.05-16.47.34:892][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47.056ms to complete.
+[2019.02.05-16.47.34:892][  0]LogFileHelpers: Loading map 'TwoPlayerArena' took 0.460
+[2019.02.05-16.47.35:103][  0]LogCollectionManager: Loaded 0 collections in 0.001527 seconds
+[2019.02.05-16.47.35:221][  0]LogFileCache: Scanning file cache for directory 'C:/Users/OXENN/Documents/GitHub/CCW_30Days/Saved/Collections/' took 0.01s
+[2019.02.05-16.47.35:221][  0]LogFileCache: Scanning file cache for directory 'C:/Users/OXENN/Documents/GitHub/CCW_30Days/Content/Developers/OXENN/Collections/' took 0.01s
+[2019.02.05-16.47.35:221][  0]LogFileCache: Scanning file cache for directory 'C:/Users/OXENN/Documents/GitHub/CCW_30Days/Content/Collections/' took 0.01s
+[2019.02.05-16.47.35:221][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.05-16.47.35:229][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2400 classes and 506 folders.
+[2019.02.05-16.47.35:300][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.05-16.47.35:559][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.05-16.47.35:605][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.02.05-16.47.35:669][  0]LogSlate: Took 0.004479 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.05-16.47.35:676][  0]LogSlate: Took 0.004552 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.05-16.47.35:684][  0]LogSlate: Took 0.004308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.05-16.47.35:861][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.02.05-16.47.36:001][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.02.05-16.47.36:002][  0]LogLoad: (Engine Initialization) Total time: 24.86 seconds
+[2019.02.05-16.47.36:002][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.05-16.47.36:002][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2019.02.05-16.47.36:002][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2019.02.05-16.47.36:030][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.05-16.47.36:080][  0]LogSlate: Took 0.003214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.02.05-16.47.36:094][  1]LogAssetRegistry: Asset discovery search completed in 15.8885 seconds
+[2019.02.05-16.47.36:095][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.02.05-16.47.36:095][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2019.02.05-16.48.00:429][904]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.02.05-16.48.00:809][904]LogAIModule: Creating AISystem for world Arena_1
+[2019.02.05-16.48.00:824][904]Cmd: MAP LOAD FILE="../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Levels/Arena_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.05-16.48.00:825][904]LightingResults: New page: Lighting Build
+[2019.02.05-16.48.00:825][904]LoadErrors: New page: Loading map: Arena_1.umap
+[2019.02.05-16.48.00:826][904]MapCheck: New page: Map Check
+[2019.02.05-16.48.00:826][904]LightingResults: New page: Lighting Build
+[2019.02.05-16.48.00:881][904]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.05-16.48.00:925][904]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.05-16.48.00:978][904]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.905ms to complete.
+[2019.02.05-16.48.00:978][904]LogFileHelpers: Loading map 'Arena_1' took 0.154
+[2019.02.05-16.48.10:527][  1]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 113 classes and 0 folders.
+[2019.02.05-16.48.11:053][  1]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.05-16.48.11:126][  1]LogSlate: Took 0.003595 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.05-16.48.11:366][  2]LogSlate: Took 0.004322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.05-16.50.53:841][ 82]LogSavePackage: Save=16.22ms
+[2019.02.05-16.50.53:841][ 82]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/FloorTrigger_Blueprint170F46224E45C50FCCBF3884E900A1CE.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/FloorTrigger_Blueprint.uasset'
+[2019.02.05-16.50.53:846][ 82]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/FloorTrigger_Blueprint.uasset
+[2019.02.05-16.55.19:302][650]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.02.05-16.56.06:486][ 11]BlueprintLog: New page: Compile BP_player_1
+[2019.02.05-16.56.07:088][ 11]LogSavePackage: Save=99.65ms
+[2019.02.05-16.56.07:088][ 11]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/Arena_1691A51224AD36F9EC9F6D181C0528AC9.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Levels/Arena_1.umap'
+[2019.02.05-16.56.07:091][ 11]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Levels/Arena_1.umap
+[2019.02.05-16.56.07:121][ 11]LogFileHelpers: Saving map 'Arena_1' took 0.238
+[2019.02.05-16.56.07:272][ 11]LogSavePackage: Save=120.97ms
+[2019.02.05-16.56.07:272][ 11]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/BP_player_12F7D3537489C2E205132EA839C0CD0CA.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset'
+[2019.02.05-16.56.07:275][ 11]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset
+[2019.02.05-16.56.07:308][ 11]LogSavePackage: Save=14.56ms
+[2019.02.05-16.56.07:308][ 11]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/FloorTrigger_Blueprint3E8B7483439B7B7FED7EDC8DECC5AC77.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/FloorTrigger_Blueprint.uasset'
+[2019.02.05-16.56.07:310][ 11]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/FloorTrigger_Blueprint.uasset
+[2019.02.05-16.56.07:906][ 47]LogSavePackage: Save=115.13ms
+[2019.02.05-16.56.07:906][ 47]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/BP_player_14EEA0C7C4F01B973A3F1DEBE52D5BB57.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset'
+[2019.02.05-16.56.07:908][ 47]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset
+[2019.02.05-16.56.24:134][228]BlueprintLog: New page: Compile BP_player_1
+[2019.02.05-16.56.24:780][228]LogSavePackage: Save=97.78ms
+[2019.02.05-16.56.24:780][228]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/Arena_1EA7E80CF4366BD55AA644AB53309D899.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Levels/Arena_1.umap'
+[2019.02.05-16.56.24:783][228]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Levels/Arena_1.umap
+[2019.02.05-16.56.24:815][228]LogFileHelpers: Saving map 'Arena_1' took 0.215
+[2019.02.05-16.56.24:958][228]LogSavePackage: Save=121.19ms
+[2019.02.05-16.56.24:958][228]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/BP_player_1E67E1FF84BFAC70FA0CF0AAF699F78AF.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset'
+[2019.02.05-16.56.24:961][228]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset
+[2019.02.05-16.58.21:720][179]BlueprintLog: New page: Compile FloorTrigger_Blueprint
+[2019.02.05-16.58.22:007][179]LogSavePackage: Save=22.46ms
+[2019.02.05-16.58.22:007][179]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/FloorTrigger_Blueprint2846145D4D355502F6D579B5F0587739.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/FloorTrigger_Blueprint.uasset'
+[2019.02.05-16.58.22:009][179]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/FloorTrigger_Blueprint.uasset
+[2019.02.05-16.58.25:187][524]BlueprintLog: New page: Compile FloorTrigger_Blueprint
+[2019.02.05-16.58.53:996][917]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.02.05-16.58.55:319][ 70]Cmd: TRANSACTION UNDO
+[2019.02.05-16.58.55:319][ 70]LogEditorTransaction: Undo Move Actors
+[2019.02.05-16.58.59:128][516]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.05-16.58.59:187][516]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-16.58.59:188][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.05-16.58.59:188][516]PIE: New page: PIE session: Arena_1 (Feb 5, 2019, 6:58:59 AM)
+[2019.02.05-16.58.59:188][516]LogPlayLevel: Creating play world package: /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1
+[2019.02.05-16.58.59:201][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013259s)
+[2019.02.05-16.58.59:202][516]LogAIModule: Creating AISystem for world Arena_1
+[2019.02.05-16.58.59:202][516]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2019.02.05-16.58.59:202][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HellYeahContent/Levels/Arena_1.Arena_1 to /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 (0.014242s)
+[2019.02.05-16.58.59:224][516]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.05-16.58.59:236][516]LogInit: FAudioDevice initialized.
+[2019.02.05-16.58.59:277][516]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.05-16.58.59:280][516]LogWorld: Bringing World /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 up for play (max tick rate 0) at 2019.02.05-11.58.59
+[2019.02.05-16.58.59:280][516]LogWorld: Bringing up level for play took: 0.001158
+[2019.02.05-16.58.59:333][516]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2019.02.05-16.58.59:334][516]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.02.05-16.58.59:341][516]PIE: Play in editor start time for /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1 -0.484
+[2019.02.05-16.58.59:341][516]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-16.59.09:379][716]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-16.59.09:427][716]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-16.59.09:834][759]Cmd: SELECT NONE
+[2019.02.05-16.59.11:512][960]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.05-16.59.11:532][960]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-16.59.11:532][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.05-16.59.11:532][960]PIE: New page: PIE session: Arena_1 (Feb 5, 2019, 6:59:11 AM)
+[2019.02.05-16.59.11:532][960]LogPlayLevel: Creating play world package: /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1
+[2019.02.05-16.59.11:545][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013133s)
+[2019.02.05-16.59.11:546][960]LogAIModule: Creating AISystem for world Arena_1
+[2019.02.05-16.59.11:546][960]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2019.02.05-16.59.11:546][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HellYeahContent/Levels/Arena_1.Arena_1 to /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 (0.014079s)
+[2019.02.05-16.59.11:568][960]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.05-16.59.11:579][960]LogInit: FAudioDevice initialized.
+[2019.02.05-16.59.11:609][960]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.05-16.59.11:612][960]LogWorld: Bringing World /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 up for play (max tick rate 0) at 2019.02.05-11.59.11
+[2019.02.05-16.59.11:612][960]LogWorld: Bringing up level for play took: 0.001185
+[2019.02.05-16.59.11:613][960]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.02.05-16.59.11:617][960]LogScriptCore: Warning: Script Msg: Attempted to access index 3 from array 'ItemsToSpawn' of length 3 in '/Game/HellYeahContent/Blueprints/Spawner/BP_ItemSpawner.BP_ItemSpawner_C'!
+[2019.02.05-16.59.11:617][960]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.02.05-16.59.11:617][960]PIE: Play in editor start time for /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1 -0.207
+[2019.02.05-16.59.11:618][960]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-16.59.18:068][729]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-16.59.18:106][729]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-17.00.54:557][150]BlueprintLog: New page: Compile FloorTrigger_Blueprint
+[2019.02.05-17.00.54:563][150]LogBlueprint: Error: [Compiler FloorTrigger_Blueprint] The type of  Array  is undetermined.  Connect something to  ForEachLoopWithBreak  to imply a specific type.
+[2019.02.05-17.00.54:563][150]LogBlueprint: Error: [Compiler FloorTrigger_Blueprint] The type of  Target Array  is undetermined.  Connect something to  Length  to imply a specific type.
+[2019.02.05-17.00.54:764][150]LogBlueprint: Warning: [Compiler FloorTrigger_Blueprint] [0823.63] Compile of FloorTrigger_Blueprint failed. 2 Fatal Issue(s) 0 Warning(s) [in 206 ms] (/Game/HellYeahContent/Blueprints/FloorTrigger_Blueprint.FloorTrigger_Blueprint)
+[2019.02.05-17.01.01:451][943]BlueprintLog: New page: Compile FloorTrigger_Blueprint
+[2019.02.05-17.01.01:456][943]LogBlueprint: Error: [Compiler FloorTrigger_Blueprint] The type of  Array  is undetermined.  Connect something to  ForEachLoopWithBreak  to imply a specific type.
+[2019.02.05-17.01.01:457][943]LogBlueprint: Error: [Compiler FloorTrigger_Blueprint] The type of  Target Array  is undetermined.  Connect something to  Length  to imply a specific type.
+[2019.02.05-17.01.01:655][943]LogBlueprint: Warning: [Compiler FloorTrigger_Blueprint] [0830.52] Compile of FloorTrigger_Blueprint failed. 2 Fatal Issue(s) 0 Warning(s) [in 204 ms] (/Game/HellYeahContent/Blueprints/FloorTrigger_Blueprint.FloorTrigger_Blueprint)
+[2019.02.05-17.01.15:958][577]BlueprintLog: New page: Compile FloorTrigger_Blueprint
+[2019.02.05-17.01.15:963][577]LogBlueprint: Error: [Compiler FloorTrigger_Blueprint] The type of  Array  is undetermined.  Connect something to  ForEachLoopWithBreak  to imply a specific type.
+[2019.02.05-17.01.15:963][577]LogBlueprint: Error: [Compiler FloorTrigger_Blueprint] The type of  Target Array  is undetermined.  Connect something to  Length  to imply a specific type.
+[2019.02.05-17.01.16:164][577]LogBlueprint: Warning: [Compiler FloorTrigger_Blueprint] [0845.03] Compile of FloorTrigger_Blueprint failed. 2 Fatal Issue(s) 0 Warning(s) [in 205 ms] (/Game/HellYeahContent/Blueprints/FloorTrigger_Blueprint.FloorTrigger_Blueprint)
+[2019.02.05-17.01.40:740][439]BlueprintLog: New page: Compile FloorTrigger_Blueprint
+[2019.02.05-17.01.41:009][439]LogSavePackage: Save=19.10ms
+[2019.02.05-17.01.41:009][439]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/FloorTrigger_Blueprint740135874C98DE5386DEE5B48EA554C0.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/FloorTrigger_Blueprint.uasset'
+[2019.02.05-17.01.41:012][439]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/FloorTrigger_Blueprint.uasset
+[2019.02.05-17.01.41:380][467]LogSavePackage: Save=19.11ms
+[2019.02.05-17.01.41:380][467]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/FloorTrigger_Blueprint5B82CE5A47DFDC0617831ABE676B334D.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/FloorTrigger_Blueprint.uasset'
+[2019.02.05-17.01.41:381][467]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/FloorTrigger_Blueprint.uasset
+[2019.02.05-17.01.52:941][718]BlueprintLog: New page: Compile BP_player_1
+[2019.02.05-17.01.53:503][718]LogSavePackage: Save=97.77ms
+[2019.02.05-17.01.53:504][718]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/Arena_1F77A637B4E24E8F75B540084DB5BD32B.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Levels/Arena_1.umap'
+[2019.02.05-17.01.53:508][718]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Levels/Arena_1.umap
+[2019.02.05-17.01.53:539][718]LogFileHelpers: Saving map 'Arena_1' took 0.237
+[2019.02.05-17.01.53:692][718]LogSavePackage: Save=120.85ms
+[2019.02.05-17.01.53:692][718]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/BP_player_12E0F7ABE4647FE9FDE8F51A5518256E3.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset'
+[2019.02.05-17.01.53:694][718]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/Players/BP_player_1.uasset
+[2019.02.05-17.01.58:429][215]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.05-17.01.58:452][215]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-17.01.58:452][215]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.05-17.01.58:452][215]PIE: New page: PIE session: Arena_1 (Feb 5, 2019, 7:01:58 AM)
+[2019.02.05-17.01.58:452][215]LogPlayLevel: Creating play world package: /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1
+[2019.02.05-17.01.58:465][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013167s)
+[2019.02.05-17.01.58:466][215]LogAIModule: Creating AISystem for world Arena_1
+[2019.02.05-17.01.58:466][215]LogPlayLevel: PIE: World Init took: (0.000623s)
+[2019.02.05-17.01.58:466][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HellYeahContent/Levels/Arena_1.Arena_1 to /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 (0.014026s)
+[2019.02.05-17.01.58:489][215]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.05-17.01.58:501][215]LogInit: FAudioDevice initialized.
+[2019.02.05-17.01.58:529][215]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.05-17.01.58:532][215]LogWorld: Bringing World /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 up for play (max tick rate 0) at 2019.02.05-12.01.58
+[2019.02.05-17.01.58:532][215]LogWorld: Bringing up level for play took: 0.001116
+[2019.02.05-17.01.58:533][215]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.02.05-17.01.58:538][215]PIE: Play in editor start time for /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1 0.713
+[2019.02.05-17.01.58:538][215]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-17.02.09:927][579]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-17.02.09:960][579]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-17.02.10:031][583]Cmd: SELECT NONE
+[2019.02.05-17.02.11:115][712]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.05-17.02.11:134][712]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-17.02.11:135][712]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.05-17.02.11:135][712]PIE: New page: PIE session: Arena_1 (Feb 5, 2019, 7:02:11 AM)
+[2019.02.05-17.02.11:135][712]LogPlayLevel: Creating play world package: /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1
+[2019.02.05-17.02.11:147][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012180s)
+[2019.02.05-17.02.11:147][712]LogAIModule: Creating AISystem for world Arena_1
+[2019.02.05-17.02.11:148][712]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2019.02.05-17.02.11:148][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HellYeahContent/Levels/Arena_1.Arena_1 to /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 (0.013019s)
+[2019.02.05-17.02.11:169][712]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.05-17.02.11:180][712]LogInit: FAudioDevice initialized.
+[2019.02.05-17.02.11:208][712]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.05-17.02.11:211][712]LogWorld: Bringing World /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 up for play (max tick rate 0) at 2019.02.05-12.02.11
+[2019.02.05-17.02.11:211][712]LogWorld: Bringing up level for play took: 0.001116
+[2019.02.05-17.02.11:212][712]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.02.05-17.02.11:216][712]LogScriptCore: Warning: Script Msg: Attempted to access index 3 from array 'ItemsToSpawn' of length 3 in '/Game/HellYeahContent/Blueprints/Spawner/BP_ItemSpawner.BP_ItemSpawner_C'!
+[2019.02.05-17.02.11:216][712]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.02.05-17.02.11:216][712]PIE: Play in editor start time for /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1 -0.608
+[2019.02.05-17.02.11:217][712]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-17.02.12:049][809]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-17.02.12:085][809]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-17.02.12:747][884]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.05-17.02.12:766][884]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-17.02.12:767][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.05-17.02.12:767][884]PIE: New page: PIE session: Arena_1 (Feb 5, 2019, 7:02:12 AM)
+[2019.02.05-17.02.12:767][884]LogPlayLevel: Creating play world package: /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1
+[2019.02.05-17.02.12:778][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011368s)
+[2019.02.05-17.02.12:779][884]LogAIModule: Creating AISystem for world Arena_1
+[2019.02.05-17.02.12:779][884]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2019.02.05-17.02.12:779][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HellYeahContent/Levels/Arena_1.Arena_1 to /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 (0.012186s)
+[2019.02.05-17.02.12:800][884]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.05-17.02.12:811][884]LogInit: FAudioDevice initialized.
+[2019.02.05-17.02.12:845][884]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.05-17.02.12:846][884]LogWorld: Bringing World /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 up for play (max tick rate 0) at 2019.02.05-12.02.12
+[2019.02.05-17.02.12:847][884]LogWorld: Bringing up level for play took: 0.000980
+[2019.02.05-17.02.12:847][884]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.02.05-17.02.12:852][884]LogScriptCore: Warning: Script Msg: Attempted to access index 3 from array 'ItemsToSpawn' of length 3 in '/Game/HellYeahContent/Blueprints/Spawner/BP_ItemSpawner.BP_ItemSpawner_C'!
+[2019.02.05-17.02.12:852][884]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.02.05-17.02.12:852][884]PIE: Play in editor start time for /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1 1.027
+[2019.02.05-17.02.12:852][884]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-17.02.14:850][121]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-17.02.14:884][121]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-17.02.16:213][276]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart2)
+[2019.02.05-17.02.17:092][378]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.02.05-17.02.17:649][442]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.05-17.02.17:668][442]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-17.02.17:668][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.05-17.02.17:669][442]PIE: New page: PIE session: Arena_1 (Feb 5, 2019, 7:02:17 AM)
+[2019.02.05-17.02.17:669][442]LogPlayLevel: Creating play world package: /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1
+[2019.02.05-17.02.17:681][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011960s)
+[2019.02.05-17.02.17:681][442]LogAIModule: Creating AISystem for world Arena_1
+[2019.02.05-17.02.17:681][442]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2019.02.05-17.02.17:681][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HellYeahContent/Levels/Arena_1.Arena_1 to /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 (0.012769s)
+[2019.02.05-17.02.17:702][442]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.05-17.02.17:713][442]LogInit: FAudioDevice initialized.
+[2019.02.05-17.02.17:741][442]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.05-17.02.17:744][442]LogWorld: Bringing World /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 up for play (max tick rate 0) at 2019.02.05-12.02.17
+[2019.02.05-17.02.17:744][442]LogWorld: Bringing up level for play took: 0.001137
+[2019.02.05-17.02.17:745][442]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.02.05-17.02.17:749][442]PIE: Play in editor start time for /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1 -0.075
+[2019.02.05-17.02.17:750][442]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-17.02.28:991][788]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-17.02.29:028][788]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-17.02.45:188][668]BlueprintLog: New page: Compile FloorTrigger_Blueprint
+[2019.02.05-17.02.45:437][668]LogSavePackage: Save=19.48ms
+[2019.02.05-17.02.45:437][668]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/FloorTrigger_Blueprint13A4C8A64EB7382E7B8CF894E0FDF54B.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/FloorTrigger_Blueprint.uasset'
+[2019.02.05-17.02.45:439][668]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/FloorTrigger_Blueprint.uasset
+[2019.02.05-17.02.45:754][692]LogSavePackage: Save=19.17ms
+[2019.02.05-17.02.45:754][692]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/FloorTrigger_BlueprintD6A7E60A44704D3790C2BFB7B5FF6582.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/FloorTrigger_Blueprint.uasset'
+[2019.02.05-17.02.45:755][692]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/FloorTrigger_Blueprint.uasset
+[2019.02.05-17.02.48:048][960]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.05-17.02.48:071][960]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-17.02.48:071][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.05-17.02.48:071][960]PIE: New page: PIE session: Arena_1 (Feb 5, 2019, 7:02:48 AM)
+[2019.02.05-17.02.48:071][960]LogPlayLevel: Creating play world package: /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1
+[2019.02.05-17.02.48:083][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011946s)
+[2019.02.05-17.02.48:084][960]LogAIModule: Creating AISystem for world Arena_1
+[2019.02.05-17.02.48:084][960]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2019.02.05-17.02.48:084][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HellYeahContent/Levels/Arena_1.Arena_1 to /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 (0.012811s)
+[2019.02.05-17.02.48:106][960]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.05-17.02.48:117][960]LogInit: FAudioDevice initialized.
+[2019.02.05-17.02.48:148][960]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.05-17.02.48:151][960]LogWorld: Bringing World /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1.Arena_1 up for play (max tick rate 0) at 2019.02.05-12.02.48
+[2019.02.05-17.02.48:151][960]LogWorld: Bringing up level for play took: 0.001147
+[2019.02.05-17.02.48:151][960]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.02.05-17.02.48:156][960]PIE: Play in editor start time for /Game/HellYeahContent/Levels/UEDPIE_0_Arena_1 0.331
+[2019.02.05-17.02.48:157][960]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-17.03.01:754][587]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-17.03.01:796][587]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel' has LevelScriptBlueprint '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1' with GeneratedClass '/Game/HellYeahContent/Levels/Arena_1.Arena_1_C' with ClassGeneratedBy '/Game/HellYeahContent/Levels/Arena_1.Arena_1:PersistentLevel.Arena_1'
+[2019.02.05-17.03.30:907][968]BlueprintLog: New page: Compile FloorTrigger_Blueprint
+[2019.02.05-17.03.31:157][968]LogSavePackage: Save=20.65ms
+[2019.02.05-17.03.31:157][968]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/FloorTrigger_Blueprint04E9049B4A9DD4C7278D339D9A544998.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/FloorTrigger_Blueprint.uasset'
+[2019.02.05-17.03.31:159][968]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/FloorTrigger_Blueprint.uasset
+[2019.02.05-17.03.32:111][ 70]LogSavePackage: Save=20.30ms
+[2019.02.05-17.03.32:111][ 70]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/FloorTrigger_Blueprint73954ED64E2EEFB9369FC495D9BB8E34.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/FloorTrigger_Blueprint.uasset'
+[2019.02.05-17.03.32:112][ 70]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Blueprints/FloorTrigger_Blueprint.uasset
+[2019.02.05-17.03.35:105][366]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.02.05-17.03.35:973][446]LogSavePackage: Save=95.92ms
+[2019.02.05-17.03.35:973][446]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/Arena_1A0FBBEAF4E654FD1B904738B017E05D9.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Levels/Arena_1.umap'
+[2019.02.05-17.03.35:977][446]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Levels/Arena_1.umap
+[2019.02.05-17.03.36:114][446]LogSavePackage: Save=77.01ms
+[2019.02.05-17.03.36:114][446]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/Arena_1_BuiltData3B93B7A348882501C8269AB74679005D.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Levels/Arena_1_BuiltData.uasset'
+[2019.02.05-17.03.36:115][446]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Levels/Arena_1_BuiltData.uasset
+[2019.02.05-17.03.39:183][796]LogSavePackage: Save=106.43ms
+[2019.02.05-17.03.39:183][796]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/Arena_1F8B6196E46FD9A00877F3A9814CA929A.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Levels/Arena_1.umap'
+[2019.02.05-17.03.39:184][796]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Levels/Arena_1.umap
+[2019.02.05-17.03.39:267][796]LogSavePackage: Save=41.31ms
+[2019.02.05-17.03.39:267][796]LogSavePackage: Moving '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Saved/Arena_1_BuiltDataAE88EBE74B02875C03812A9A791FA6EC.tmp' to '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Levels/Arena_1_BuiltData.uasset'
+[2019.02.05-17.03.39:268][796]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/HellYeahContent/Levels/Arena_1_BuiltData.uasset
+[2019.02.05-17.03.40:887][977]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.05-17.03.41:057][978]Cmd: QUIT_EDITOR
+[2019.02.05-17.03.41:443][978]LogExit: Preparing to exit.
+[2019.02.05-17.03.42:378][978]LogDirectoryWatcher: A directory notification for 'C:/Users/OXENN/Documents/GitHub/CCW_30Days/Content/' was aborted.
+[2019.02.05-17.03.42:404][978]LogExit: Editor shut down
+[2019.02.05-17.03.42:407][978]LogExit: Transaction tracking system shut down
+[2019.02.05-17.03.42:518][978]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2019.02.05-17.03.42:518][978]LogDirectoryWatcher: A directory notification for '../../../../../../Users/OXENN/Documents/GitHub/CCW_30Days/Content/' was aborted.
+[2019.02.05-17.03.42:518][978]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2019.02.05-17.03.42:518][978]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2019.02.05-17.03.42:518][978]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2019.02.05-17.03.42:613][978]LogExit: Object subsystem successfully closed.
+[2019.02.05-17.03.42:639][978]LogD3D11RHI: Shutdown
+[2019.02.05-17.03.42:639][978]LogD3D11RHI: CleanupD3DDevice
+[2019.02.05-17.03.42:733][978]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.02.05-17.03.42:750][978]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (542)
+[2019.02.05-17.03.42:750][978]LogModuleManager: Shutting down and abandoning module BlueprintGraph (540)
+[2019.02.05-17.03.42:750][978]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (538)
+[2019.02.05-17.03.42:750][978]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (536)
+[2019.02.05-17.03.42:750][978]LogModuleManager: Shutting down and abandoning module SceneOutliner (534)
+[2019.02.05-17.03.42:750][978]LogModuleManager: Shutting down and abandoning module AddContentDialog (532)
+[2019.02.05-17.03.42:750][978]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module WidgetCarousel (531)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module EditorWidgets (528)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module CollectionManager (526)
+[2019.02.05-17.03.42:751][978]LogDirectoryWatcher: A directory notification for 'C:/Users/OXENN/Documents/GitHub/CCW_30Days/Content/Collections/' was aborted.
+[2019.02.05-17.03.42:751][978]LogDirectoryWatcher: A directory notification for 'C:/Users/OXENN/Documents/GitHub/CCW_30Days/Content/Developers/OXENN/Collections/' was aborted.
+[2019.02.05-17.03.42:751][978]LogDirectoryWatcher: A directory notification for 'C:/Users/OXENN/Documents/GitHub/CCW_30Days/Saved/Collections/' was aborted.
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module StatsViewer (524)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module FoliageEdit (522)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module LandscapeEditor (520)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module MeshPaintMode (518)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (516)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module ActorPickerMode (514)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module GeometryMode (512)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module TextureAlignMode (510)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module BspMode (508)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (506)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module HardwareSurvey (504)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (502)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module AutomationWorker (500)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (498)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (496)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module PlacementMode (495)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (492)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (490)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (488)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (486)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (484)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module Media (483)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (480)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module CharacterAI (478)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module AudioCapture (476)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module SequenceRecorder (475)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module SmartSnapping (472)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module SessionServices (470)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module ViewportSnapping (468)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module ViewportInteraction (466)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module ClothPainter (464)
+[2019.02.05-17.03.42:751][978]LogModuleManager: Shutting down and abandoning module LogVisualizer (462)
+[2019.02.05-17.03.42:752][978]LogModuleManager: Shutting down and abandoning module IntroTutorials (460)
+[2019.02.05-17.03.42:752][978]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (459)
+[2019.02.05-17.03.42:752][978]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (456)
+[2019.02.05-17.03.42:752][978]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (454)
+[2019.02.05-17.03.42:752][978]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (452)
+[2019.02.05-17.03.42:752][978]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (451)
+[2019.02.05-17.03.42:988][978]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (448)
+[2019.02.05-17.03.42:988][978]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (446)
+[2019.02.05-17.03.42:989][978]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (444)
+[2019.02.05-17.03.42:989][978]LogModuleManager: Shutting down and abandoning module InputBindingEditor (442)
+[2019.02.05-17.03.42:989][978]LogModuleManager: Shutting down and abandoning module MergeActors (440)
+[2019.02.05-17.03.42:989][978]LogModuleManager: Shutting down and abandoning module SizeMap (438)
+[2019.02.05-17.03.42:989][978]LogModuleManager: Shutting down and abandoning module TreeMap (436)
+[2019.02.05-17.03.42:989][978]LogModuleManager: Shutting down and abandoning module ReferenceViewer (434)
+[2019.02.05-17.03.42:989][978]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (432)
+[2019.02.05-17.03.42:989][978]LogModuleManager: Shutting down and abandoning module LocalizationService (431)
+[2019.02.05-17.03.42:989][978]LogModuleManager: Shutting down and abandoning module HardwareTargeting (428)
+[2019.02.05-17.03.42:989][978]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (426)
+[2019.02.05-17.03.42:989][978]LogModuleManager: Shutting down and abandoning module UndoHistory (424)
+[2019.02.05-17.03.42:989][978]LogModuleManager: Shutting down and abandoning module XmlParser (422)
+[2019.02.05-17.03.42:989][978]LogModuleManager: Shutting down and abandoning module Blutility (420)
+[2019.02.05-17.03.42:989][978]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (418)
+[2019.02.05-17.03.42:989][978]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (417)
+[2019.02.05-17.03.42:990][978]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (414)
+[2019.02.05-17.03.42:990][978]LogModuleManager: Shutting down and abandoning module SettingsEditor (412)
+[2019.02.05-17.03.42:990][978]LogModuleManager: Shutting down and abandoning module ProjectLauncher (410)
+[2019.02.05-17.03.42:990][978]LogModuleManager: Shutting down and abandoning module SessionFrontend (408)
+[2019.02.05-17.03.42:990][978]LogModuleManager: Shutting down and abandoning module ProfilerClient (406)
+[2019.02.05-17.03.42:990][978]LogModuleManager: Shutting down and abandoning module DeviceManager (404)
+[2019.02.05-17.03.42:990][978]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (403)
+[2019.02.05-17.03.43:056][978]LogModuleManager: Shutting down and abandoning module AutomationController (400)
+[2019.02.05-17.03.43:056][978]LogModuleManager: Shutting down and abandoning module AutomationWindow (398)
+[2019.02.05-17.03.43:056][978]LogModuleManager: Shutting down and abandoning module Layers (396)
+[2019.02.05-17.03.43:056][978]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (394)
+[2019.02.05-17.03.43:056][978]LogModuleManager: Shutting down and abandoning module DetailCustomizations (392)
+[2019.02.05-17.03.43:056][978]LogModuleManager: Shutting down and abandoning module PackagesDialog (390)
+[2019.02.05-17.03.43:056][978]LogModuleManager: Shutting down and abandoning module Persona (388)
+[2019.02.05-17.03.43:056][978]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (387)
+[2019.02.05-17.03.43:056][978]LogModuleManager: Shutting down and abandoning module AnimGraph (385)
+[2019.02.05-17.03.43:057][978]LogModuleManager: Shutting down and abandoning module Kismet (382)
+[2019.02.05-17.03.43:072][978]LogModuleManager: Shutting down and abandoning module ClassViewer (380)
+[2019.02.05-17.03.43:072][978]LogModuleManager: Shutting down and abandoning module Toolbox (378)
+[2019.02.05-17.03.43:072][978]LogModuleManager: Shutting down and abandoning module ModuleUI (376)
+[2019.02.05-17.03.43:072][978]LogModuleManager: Shutting down and abandoning module MovieSceneTools (374)
+[2019.02.05-17.03.43:073][978]LogModuleManager: Shutting down and abandoning module OutputLog (372)
+[2019.02.05-17.03.43:073][978]LogModuleManager: Shutting down and abandoning module GammaUI (370)
+[2019.02.05-17.03.43:073][978]LogModuleManager: Shutting down and abandoning module Documentation (368)
+[2019.02.05-17.03.43:073][978]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (366)
+[2019.02.05-17.03.43:073][978]LogModuleManager: Shutting down and abandoning module MovieScene (364)
+[2019.02.05-17.03.43:073][978]LogModuleManager: Shutting down and abandoning module Niagara (362)
+[2019.02.05-17.03.43:073][978]LogModuleManager: Shutting down and abandoning module NiagaraEditor (361)
+[2019.02.05-17.03.43:073][978]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (358)
+[2019.02.05-17.03.43:073][978]LogModuleManager: Shutting down and abandoning module LauncherPlatform (356)
+[2019.02.05-17.03.43:073][978]LogModuleManager: Shutting down and abandoning module AnalyticsET (354)
+[2019.02.05-17.03.43:074][978]LogModuleManager: Shutting down and abandoning module PortalServices (352)
+[2019.02.05-17.03.43:074][978]LogModuleManager: Shutting down and abandoning module PortalRpc (350)
+[2019.02.05-17.03.43:074][978]LogModuleManager: Shutting down and abandoning module MessagingRpc (348)
+[2019.02.05-17.03.43:074][978]LogModuleManager: Shutting down and abandoning module AIModule (346)
+[2019.02.05-17.03.43:074][978]LogModuleManager: Shutting down and abandoning module GameplayDebugger (345)
+[2019.02.05-17.03.43:074][978]LogModuleManager: Shutting down and abandoning module AITestSuite (343)
+[2019.02.05-17.03.43:074][978]LogModuleManager: Shutting down and abandoning module ProfilerService (340)
+[2019.02.05-17.03.43:187][978]LogModuleManager: Shutting down and abandoning module TaskGraph (338)
+[2019.02.05-17.03.43:187][978]LogModuleManager: Shutting down and abandoning module SubstanceSource (336)
+[2019.02.05-17.03.43:188][978]LogModuleManager: Shutting down and abandoning module SubstanceEditor (334)
+[2019.02.05-17.03.43:188][978]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2019.02.05-17.03.43:188][978]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2019.02.05-17.03.43:188][978]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2019.02.05-17.03.43:188][978]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2019.02.05-17.03.43:188][978]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2019.02.05-17.03.43:188][978]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2019.02.05-17.03.43:188][978]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2019.02.05-17.03.43:188][978]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2019.02.05-17.03.43:188][978]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2019.02.05-17.03.43:188][978]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2019.02.05-17.03.43:188][978]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2019.02.05-17.03.43:188][978]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2019.02.05-17.03.43:189][978]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2019.02.05-17.03.43:189][978]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2019.02.05-17.03.43:189][978]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2019.02.05-17.03.43:189][978]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2019.02.05-17.03.43:189][978]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2019.02.05-17.03.43:189][978]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2019.02.05-17.03.43:189][978]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2019.02.05-17.03.43:189][978]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
+[2019.02.05-17.03.43:189][978]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
+[2019.02.05-17.03.43:189][978]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
+[2019.02.05-17.03.43:189][978]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
+[2019.02.05-17.03.43:190][978]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
+[2019.02.05-17.03.43:190][978]LogModuleManager: Shutting down and abandoning module SourceControl (283)
+[2019.02.05-17.03.43:190][978]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2019.02.05-17.03.43:190][978]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2019.02.05-17.03.43:190][978]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2019.02.05-17.03.43:190][978]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2019.02.05-17.03.43:190][978]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2019.02.05-17.03.43:190][978]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2019.02.05-17.03.43:192][978]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2019.02.05-17.03.43:192][978]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2019.02.05-17.03.43:192][978]LogModuleManager: Shutting down and abandoning module HotReload (267)
+[2019.02.05-17.03.43:194][978]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (262)
+[2019.02.05-17.03.43:194][978]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (260)
+[2019.02.05-17.03.43:194][978]LogModuleManager: Shutting down and abandoning module PhysXVehicles (258)
+[2019.02.05-17.03.43:194][978]LogModuleManager: Shutting down and abandoning module OculusEditor (256)
+[2019.02.05-17.03.43:194][978]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (254)
+[2019.02.05-17.03.43:194][978]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (252)
+[2019.02.05-17.03.43:194][978]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (250)
+[2019.02.05-17.03.43:194][978]LogModuleManager: Shutting down and abandoning module UdpMessaging (248)
+[2019.02.05-17.03.43:295][978]LogModuleManager: Shutting down and abandoning module TcpMessaging (246)
+[2019.02.05-17.03.43:396][978]LogModuleManager: Shutting down and abandoning module SubstanceCore (244)
+[2019.02.05-17.03.43:396][978]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2019.02.05-17.03.43:396][978]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2019.02.05-17.03.43:396][978]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2019.02.05-17.03.43:396][978]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2019.02.05-17.03.43:396][978]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2019.02.05-17.03.43:396][978]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2019.02.05-17.03.43:398][978]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2019.02.05-17.03.43:398][978]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2019.02.05-17.03.43:398][978]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2019.02.05-17.03.43:398][978]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2019.02.05-17.03.43:404][978]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2019.02.05-17.03.43:404][978]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2019.02.05-17.03.43:404][978]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2019.02.05-17.03.43:404][978]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2019.02.05-17.03.43:404][978]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2019.02.05-17.03.43:404][978]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2019.02.05-17.03.43:404][978]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2019.02.05-17.03.43:404][978]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2019.02.05-17.03.43:405][978]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2019.02.05-17.03.43:405][978]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2019.02.05-17.03.43:405][978]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2019.02.05-17.03.43:405][978]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2019.02.05-17.03.43:405][978]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2019.02.05-17.03.43:405][978]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2019.02.05-17.03.43:405][978]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2019.02.05-17.03.43:405][978]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2019.02.05-17.03.43:405][978]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2019.02.05-17.03.43:406][978]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2019.02.05-17.03.43:406][978]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2019.02.05-17.03.43:406][978]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2019.02.05-17.03.43:414][978]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2019.02.05-17.03.43:414][978]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2019.02.05-17.03.43:414][978]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2019.02.05-17.03.43:414][978]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2019.02.05-17.03.43:414][978]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2019.02.05-17.03.43:414][978]LogModuleManager: Shutting down and abandoning module Core (168)
+[2019.02.05-17.03.43:414][978]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2019.02.05-17.03.43:414][978]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2019.02.05-17.03.43:414][978]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2019.02.05-17.03.43:415][978]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2019.02.05-17.03.43:415][978]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2019.02.05-17.03.43:415][978]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2019.02.05-17.03.43:415][978]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2019.02.05-17.03.43:415][978]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2019.02.05-17.03.43:415][978]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2019.02.05-17.03.43:415][978]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2019.02.05-17.03.43:417][978]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2019.02.05-17.03.43:427][978]LogDerivedDataCache: Shutdown
+[2019.02.05-17.03.43:427][978]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2019.02.05-17.03.43:427][978]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2019.02.05-17.03.43:428][978]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2019.02.05-17.03.43:428][978]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2019.02.05-17.03.43:428][978]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2019.02.05-17.03.43:428][978]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2019.02.05-17.03.43:428][978]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2019.02.05-17.03.43:428][978]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2019.02.05-17.03.43:428][978]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2019.02.05-17.03.43:428][978]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2019.02.05-17.03.43:428][978]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2019.02.05-17.03.43:428][978]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2019.02.05-17.03.43:428][978]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2019.02.05-17.03.43:428][978]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2019.02.05-17.03.43:429][978]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2019.02.05-17.03.43:429][978]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2019.02.05-17.03.43:429][978]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2019.02.05-17.03.43:429][978]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2019.02.05-17.03.43:429][978]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2019.02.05-17.03.43:429][978]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2019.02.05-17.03.43:429][978]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2019.02.05-17.03.43:429][978]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2019.02.05-17.03.43:429][978]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2019.02.05-17.03.43:429][978]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2019.02.05-17.03.43:429][978]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2019.02.05-17.03.43:429][978]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2019.02.05-17.03.43:429][978]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2019.02.05-17.03.43:430][978]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2019.02.05-17.03.43:430][978]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2019.02.05-17.03.43:430][978]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2019.02.05-17.03.43:430][978]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2019.02.05-17.03.43:430][978]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2019.02.05-17.03.43:430][978]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2019.02.05-17.03.43:430][978]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2019.02.05-17.03.43:430][978]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2019.02.05-17.03.43:430][978]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2019.02.05-17.03.43:430][978]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2019.02.05-17.03.43:430][978]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2019.02.05-17.03.43:430][978]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2019.02.05-17.03.43:430][978]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2019.02.05-17.03.43:431][978]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2019.02.05-17.03.43:431][978]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2019.02.05-17.03.43:431][978]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2019.02.05-17.03.43:431][978]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2019.02.05-17.03.43:431][978]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2019.02.05-17.03.43:431][978]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2019.02.05-17.03.43:431][978]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2019.02.05-17.03.43:431][978]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2019.02.05-17.03.43:431][978]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2019.02.05-17.03.43:431][978]LogOnline: Display: Unloading online subsystem: NULL
+[2019.02.05-17.03.43:431][978]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2019.02.05-17.03.43:432][978]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2019.02.05-17.03.43:432][978]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.02.05-17.03.43:432][978]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBDF8F33E-44D7-200B-7DA7-ECB14FDC80F7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=0faefc914db239fff53c0795116a4198%7C3a96579d56824df6acf06b5d71b70300%7C02947097-08a0-416c-97ac-24e8b41aff76&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.02.05-17.03.43:438][978]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2019.02.05-17.03.43:442][978]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.02.05-17.03.43:442][978]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.02.05-17.03.43:442][978]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.02.05-17.03.43:442][978]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.02.05-17.03.43:442][978]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.02.05-17.03.43:442][978]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.02.05-17.03.43:443][978]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.02.05-17.03.43:445][978]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.02.05-17.03.43:445][978]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.02.05-17.03.43:445][978]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.02.05-17.03.43:445][978]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.02.05-17.03.43:445][978]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.02.05-17.03.43:446][978]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.02.05-17.03.43:446][978]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.02.05-17.03.43:446][978]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.02.05-17.03.43:446][978]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.02.05-17.03.43:446][978]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.02.05-17.03.43:446][978]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.02.05-17.03.43:454][978]LogExit: Exiting.
+[2019.02.05-17.03.43:489][978]Log file closed, 02/05/19 12:03:43
